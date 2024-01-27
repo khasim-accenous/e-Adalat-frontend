@@ -1,0 +1,34 @@
+.con{
+    display: flex;
+}
+
+.form-control:focus {
+    border: 2px solid black;
+    box-shadow: none;
+    background-color: #f4fbff;
+}
+
+.form-control{
+    background-color: #f4fbff;
+}
+
+.form-control::placeholder {
+    color: #999; /* Set the desired color */
+    /* font-size: 0.90rem; */
+  }
+
+.left-box{
+
+    padding-top: 5rem;
+    background-color: #000000;
+    color: #ffffff
+}
+
+.right-box{
+    
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    background:"#f4fbff";
+   
+}
