@@ -1,0 +1,20 @@
+.con{
+    background-color: #f4fbff;
+    
+}
+
+.register-box{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: 1px solid #000000
+}
+
+.form-control{
+    border: 1px solid black;
+    box-shadow: none;
+    background-color: #f4fbff;
+}
+
+.custom-date-picker {
+    width: 12rem /* Adjust the width as needed */
+}

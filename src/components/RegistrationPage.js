@@ -1,15 +1,13 @@
-import React from 'react';
+    import React from 'react';
 import '../css/register.css'
 
-const RegistrationForm = () => {
+const RegistrationPage = () => {
 
     return (
-        <div >
-            
+        <div >    
             <div className="row g-0 vh-100">
 
                 {/* ----------------LEFT BOX------------------- */}
-
                 <div className="col-md-4 left-box d-flex justify-content-center">
                     <div>
                         <div className="mb-5">
@@ -92,4 +90,4 @@ const RegistrationForm = () => {
     );
 };
 
-export default RegistrationForm;
+export default RegistrationPage;

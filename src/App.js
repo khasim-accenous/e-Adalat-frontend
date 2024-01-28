@@ -1,12 +1,12 @@
 import './App.css';
-import RegistrationForm from './components/RegistrationForm';
-
+import RegistrationPage from './components/RegistrationPage';
+import RegistrationFormPage from './components/RegistrationFormPage';
 
 function App() {
   return (
     <div className="App">
-      <RegistrationForm/>
-
+      {/* <RegistrationPage/> */}
+      <RegistrationFormPage/>
     </div>
   );
 }
